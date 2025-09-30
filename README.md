@@ -1,16 +1,50 @@
-# React + Vite
+Pokédex con PokeAPI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web construida con React + Vite + TailwindCSS que consume la PokeAPI
+ para mostrar una Pokédex interactiva.
+Incluye búsqueda por nombre o ID, paginación, tarjetas visuales de Pokémon y un modal con detalles centrados y estilizados.
 
-Currently, two official plugins are available:
+Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React 18 + Vite → frontend rápido y modular.
 
-## React Compiler
+TailwindCSS 3.x → estilos utilitarios y responsivos.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+PokeAPI → datos públicos de Pokémon (sprites, stats, tipos, etc).
 
-## Expanding the ESLint configuration
+ESLint → buenas prácticas y linting.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Custom hooks → búsqueda con useDebounced.
+
+Funcionalidades
+
+Listado de Pokémon con paginación (“Cargar más”).
+
+Buscador por nombre o número de Pokédex.
+
+Tarjetas de Pokémon con imagen, número e información básica.
+
+Modal de detalles con:
+
+Imagen oficial animada con efecto flotante.
+
+Tipo(s) de Pokémon con chips estilizados por color.
+
+Altura, peso y habilidades.
+
+Barras de stats animadas y centradas.
+
+Fondo con blur y spotlights de color.
+
+Estilos modernos con Tailwind y animaciones personalizadas.
+
+Instalación y uso
+Clona el repositorio e instala dependencias:
+
+git clone https://github.com/tu-usuario/pokedex.git
+cd pokedex
+npm install
+
+Ejecuta en desarrollo:
+
+npm run dev
