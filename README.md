@@ -41,7 +41,7 @@ Estilos modernos con Tailwind y animaciones personalizadas.
 Instalación y uso
 Clona el repositorio e instala dependencias:
 
-git clone https://github.com/tu-usuario/pokedex.git
+git clone https://github.com/jael112/pokedex
 cd pokedex
 npm install
 
